@@ -7,14 +7,15 @@ The goal is to classify chest X-ray images as **Normal** or **Pneumonia** using 
 
 ## Project Structure
 
-pneumonia-cxr-cnn-pytorch/
-├── data/ # Chest X-ray dataset (not tracked by Git)
-│ ├── train/
-│ ├── val/
-│ └── test/
-├── Pneumonia_CXR_CNN_PyTorch.ipynb # Main Jupyter notebook
-├── .gitignore
-├── README.md # You are reading it
+pneumonia-cxr-cnn-pytorch/    
+├── data/ # Chest X-ray dataset (not tracked by Git)    
+│ ├── train/    
+│ ├── val/    
+│ └── test/    
+├── Pneumonia_CXR_CNN_PyTorch.ipynb # Main Jupyter notebook    
+├── .gitignore    
+├── README.md # You are reading it    
+
 
 ---
 
@@ -36,16 +37,16 @@ pneumonia-cxr-cnn-pytorch/
 
 2. **Place the data** inside the `data/` folder:
 
-├──data/
-│ ├── train/
-│ │ ├── NORMAL/
-│ │ ├── PNEUMONIA/
-│ ├── val/
-│ │ ├── NORMAL/
-│ │ ├── PNEUMONIA/
-│ ├── test/
-│ │ ├── NORMAL/
-│ │ ├── PNEUMONIA/
+├──data/    
+│ ├── train/    
+│ │ ├── NORMAL/    
+│ │ ├── PNEUMONIA/    
+│ ├── val/    
+│ │ ├── NORMAL/    
+│ │ ├── PNEUMONIA/    
+│ ├── test/    
+│ │ ├── NORMAL/    
+│ │ ├── PNEUMONIA/    
 
 3. **Run the notebook** `Pneumonia_CXR_CNN_PyTorch.ipynb` cell by cell.
 
