@@ -12,7 +12,7 @@ pneumonia-cxr-cnn-pytorch/
 │    ├── train/    
 │    ├── val/    
 │    └── test/    
-├── models  # Saved checkpoints (ignored by Git)
+├── models  # Saved checkpoints (ignored by Git)    
 ├── Pneumonia_CXR_CNN_PyTorch.ipynb # Main Jupyter notebook    
 ├── .gitignore    
 ├── README.md # You are reading it    
