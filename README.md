@@ -8,10 +8,11 @@ The goal is to classify chest X-ray images as **Normal** or **Pneumonia** using 
 ## Project Structure
 
 pneumonia-cxr-cnn-pytorch/    
-├── data/ # Chest X-ray dataset (not tracked by Git)    
+├── data/ # Chest X-ray dataset (ignored by Git)    
 │    ├── train/    
 │    ├── val/    
 │    └── test/    
+├── models  # Saved checkpoints (ignored by Git)
 ├── Pneumonia_CXR_CNN_PyTorch.ipynb # Main Jupyter notebook    
 ├── .gitignore    
 ├── README.md # You are reading it    
@@ -50,14 +51,12 @@ pneumonia-cxr-cnn-pytorch/
 
 3. **Run the notebook** `Pneumonia_CXR_CNN_PyTorch.ipynb` cell by cell.
 
+---
+
 
 ## Results
 
-- **Validation Accuracy**: _____  
-- **Test Accuracy**: _____  
-- **F1 macro**: _____  
-
-
-
-
+- **Validation Accuracy**: 81 %
+- **Test Accuracy**: 79 %
+- **F1 macro**: 74 %
 

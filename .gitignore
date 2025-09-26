@@ -29,6 +29,10 @@ datasets/
 
 # --- Models & logs ---
 models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
 checkpoints/
 runs/
 wandb/
